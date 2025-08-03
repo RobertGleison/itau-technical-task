@@ -1,0 +1,10 @@
+spring:
+  application:
+      name: itau
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+    baseline-on-migrate: true
+    url:
+    user:
+    password:
